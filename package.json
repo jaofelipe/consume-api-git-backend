@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "shawn and partners challenger api github",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "author": "joão Felipe",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "parse-link-header": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
