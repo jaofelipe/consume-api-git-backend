@@ -1,6 +1,4 @@
- Project Title
-
-A nice project with a nice description
+Consume GitHub API to show users and repos
 
 ---
 ## Requirements
