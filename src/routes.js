@@ -8,9 +8,9 @@ const routes = express.Router();
 routes.get('/api/users', UserController.index);
 routes.get('/api/users/:username/details', UserController.details);
 routes.get('/api/users/:username/repos', ReposController.index);
-routes.get('/api/teste', (req, res) => { 
+routes.get('/teste', (req, res) => { 
     return res.json({
-        test: "teste localhost:3333",
+        test: "teste chamada API",
     })
 }); 
 
