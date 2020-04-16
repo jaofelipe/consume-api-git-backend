@@ -5,9 +5,9 @@ const ReposController = require('./controllers/ReposController');
 
 const routes = express.Router();
 
-routes.get('/api/users', UserController.index);
-routes.get('/api/users/:username/details', UserController.details);
-routes.get('/api/users/:username/repos', ReposController.index);
+routes.get('/users', UserController.index);
+routes.get('/users/:username/details', UserController.details);
+routes.get('/users/:username/repos', ReposController.index);
 routes.get('/teste', (req, res) => { 
     return res.json({
         test: "teste chamada API",
